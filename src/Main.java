@@ -3,7 +3,7 @@ public class Main {
 
         int balance = 100; // текущий счет клиента
         int bonus = 0; // каждые 100 рублей пополнения = 1 бонусный рубль
-        int replenishment = 300; // пополнение в рублях
+        int replenishment = 1100; // пополнение в рублях
 
         if (replenishment >= 1000) {
             int bonusBalance = (bonus + (replenishment / 100));
